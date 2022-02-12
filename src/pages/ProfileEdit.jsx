@@ -16,7 +16,7 @@ class ProfileEdit extends React.Component {
     this.state = {
       name: '',
       email: '',
-      description: '',
+      description: 'Eu estou usando o MyMusic',
       image: 'https://cdn.pixabay.com/photo/2021/07/02/04/48/user-6380868_960_720.png',
       loading: false,
       savedData: false,

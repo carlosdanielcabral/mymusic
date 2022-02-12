@@ -1,16 +1,22 @@
 .music {
   align-items: center;
+  background-color: rgb(250, 250, 250);
   display: flex;
   flex-wrap: wrap;
-  height: 70px;
+  height: 150px;
   justify-content: space-around;
   margin: 0px;
   padding: 0px;
   width: 550px;
 }
 
+.music-player {
+  display: flex;
+}
+
 .music h2 {
-  font-size: 18px;
+  font-size: 24px;
+  font-weight: 500;
   width: 25%;
 }
 
@@ -27,7 +33,7 @@
 .music label {
   align-items: center;
   display: flex;
-  font-weight: 300;
+  font-weight: 200;
   padding: 10px 0;
 }
 
@@ -38,12 +44,11 @@
 @media screen and ( max-width : 600px ) {
   .music {
     align-items: flex-start;
-    box-sizing: border-box;
     display: flex;
     flex-flow: column nowrap;
-    height: 150px;
+    height: 180px;
     justify-content: flex-start;
-    margin: 0;
+    margin: 10px 0;
     padding: 10px;
     width: 100%;
   }
@@ -52,7 +57,4 @@
     width: 100%;
   }
 
-  .music-player {
-    display: flex;
-  }
 }

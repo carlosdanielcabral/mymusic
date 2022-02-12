@@ -9,12 +9,25 @@
 }
 
 .page-album .album {
+  background: linear-gradient(180deg, #664B44, #1A1720);
+  border-radius: 5px;
+  color: white;
   display: flex;
   flex-direction: column;
   font-size: 20px;
-  height: 500px;
+  height: 450px;
   padding: 10px;
   width: 300px;
+}
+
+.page-album .album span:nth-child(2) {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.page-album .album span:nth-child(3) {
+  font-size: 20px;
+  font-weight: 200;
 }
 
 .page-album .album span {
@@ -43,11 +56,18 @@
   }
 
   .page-album .album {
+    background: linear-gradient(180deg, #664B44, #1A1720);
+    border-radius: 5px;
+    color: white;
     height: auto;
   }
 
   .page-album .album span:nth-child(3) {
     font-size: 16px;
     font-weight: 300;
+  }
+  
+  .page-album .music {
+    border-bottom: 1px solid rgb(220, 220, 220);
   }
 }

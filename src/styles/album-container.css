@@ -43,3 +43,23 @@
 .album-card a:hover {
   color: rgb(180, 180, 180);
 }
+
+@media screen and ( max-width : 600px ) {
+
+  .albuns-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .album-card {
+    margin: 20px auto;
+    height: 350px;
+    width: 60%;
+  }
+
+  .album-card h2 {
+    height: 200px;
+    overflow: hidden;
+  }
+}

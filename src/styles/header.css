@@ -1,5 +1,5 @@
 header {
-  background-color: rgb(10, 117, 99);
+  background-color: rgb(0, 5, 20);
   display: flex;
   flex-flow: column wrap;
 }
@@ -25,7 +25,7 @@ header h1 {
 
 header .user-data {
   align-items: center;
-  background-color: rgb(60, 167, 159);
+  background-color: #1A1720;
   border-radius: 50px;
   display: flex;
   height: 40px;
@@ -60,7 +60,7 @@ header .user-data h2 {
 }
 
 nav {
-  background-color: rgb(230, 230, 230);
+  background-color: rgb(220, 220, 220);
   padding: 0;
 }
 
@@ -82,7 +82,7 @@ header nav ul li:hover {
 
 nav ul li a {
   color: rgb(50, 50, 50);
-  font-weight: 200;
+  font-weight: 300;
   text-decoration: none;
 }
 
