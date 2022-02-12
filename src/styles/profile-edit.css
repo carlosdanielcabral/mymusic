@@ -1,0 +1,57 @@
+.page-profile-edit .loading {
+  text-align: center;
+  width: 100%;
+}
+
+.page-profile-edit form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.page-profile-edit input, .page-profile-edit textarea {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgb(200, 200, 200);
+  color: rgb(50, 50, 50);
+}
+
+.page-profile-edit button {
+  width: 100px;
+  padding: 5px 0;
+  margin: 10px;
+}
+
+.page-profile-edit button:enabled {
+  background-color: rgb(75, 201, 117);
+  color: white;
+  border: 1px solid rgb(75, 201, 117);
+  transition: 200ms;
+}
+
+.page-profile-edit button:enabled:hover {
+  background-color: inherit;
+  color: rgb(75, 201, 117)
+}
+
+@media screen and ( max-width : 600px ) {
+
+  .page-profile-edit form {
+    width: 90%;
+  }
+
+  .page-profile-edit input, .page-profile-edit textarea, .page-profile-edit button {
+    border: 1px solid rgb(210, 210, 210);
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0;
+    padding: 5px 10px;
+    width: 100%;
+  }
+
+  .page-profile-edit input, .page-profile-edit button {
+    height: 50px;
+  }
+  
+}

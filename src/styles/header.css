@@ -1,0 +1,100 @@
+header {
+  background-color: rgb(10, 117, 99);
+  display: flex;
+  flex-flow: column wrap;
+}
+
+header .loading {
+  color: white;
+  text-align: end!important;
+  width: 100%!important;
+}
+
+header > section {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+header h1 {
+  color: rgb(200, 200, 200);
+  font-size: 28px;
+  font-weight: 200;
+}
+
+header .user-data {
+  align-items: center;
+  background-color: rgb(60, 167, 159);
+  border-radius: 50px;
+  display: flex;
+  height: 40px;
+  padding-right: 10px;
+  max-width: 130px;
+}
+
+header .image {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+header .image img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+header .user-data h2 {
+  align-items: center;
+  color: white;
+  display: flex;
+  font-size: 16px;
+  font-weight: 100;
+  height: inherit;
+  overflow: hidden;
+  padding-left: 8px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 80px;
+}
+
+nav {
+  background-color: rgb(230, 230, 230);
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  list-style: none;
+  padding: 15px 30px;
+}
+
+header nav ul li:hover {
+  background-color: gainsboro;
+}
+
+nav ul li a {
+  color: rgb(50, 50, 50);
+  font-weight: 200;
+  text-decoration: none;
+}
+
+
+.page-search header li:nth-child( 1 ) {
+  background-color: gainsboro;
+}
+
+.page-favorites header li:nth-child( 2 ) {
+  background-color: gainsboro;
+}
+
+.page-profile header li:nth-child( 3 ) {
+  background-color: gainsboro;
+}

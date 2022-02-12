@@ -1,0 +1,45 @@
+.albuns-container {
+  margin: auto;
+  width: 90%;
+}
+
+.albuns-container h2 {
+  font-weight: 100;
+}
+
+.albuns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.album-card {
+  background-color: rgb(250, 250, 250);
+  border: 1px solid rgb(230, 230, 230);
+  box-shadow: 1px 2px 5px 1px rgb(240, 240, 240);
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+  transition: 200ms;
+  width: 200px;
+}
+
+.album-card:hover {
+  box-shadow: none;
+  transform: scale(1.1);
+}
+
+.album-card img {
+  width: 100%;
+}
+
+.album-card a {
+  color: rgb(140, 140, 140);
+  text-decoration: none;
+}
+
+.album-card a:hover {
+  color: rgb(180, 180, 180);
+}

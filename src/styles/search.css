@@ -1,0 +1,39 @@
+.search .loading {
+  text-align: center;
+  width: 100%;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.search-form input {
+  border: 1px solid rgb(200, 200, 200);
+  padding: 10px;
+}
+
+.search-form .artist-name {
+  width: 400px;
+}
+
+.search-form button:enabled {
+  background-color: rgb(31, 187, 207);
+  border: 1px solid rgb(31, 187, 207);
+  color: white;
+  transition: 400ms;
+}
+
+.search-form button:enabled:hover {
+  background-color: inherit;
+  color: rgb(31, 187, 207);
+}
+
+@media screen and ( max-width : 600px ) {
+
+  .search-form input, .search-form button {
+    box-sizing: border-box;
+    height: 50px;
+  }
+}
