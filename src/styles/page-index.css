@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Yeseva One';
+  src: url('../fonts/YesevaOne/YesevaOne-Regular.ttf');
+}
+
+.index-page-container {
+  background: rgb(0, 34, 43) url('../images/headphones.png');
+  background-repeat: no-repeat;
+  background-size: 700px;
+  background-position: bottom left;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+}
+
+.index-page-container header {
+  background-color: white;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 30px;
+  width: 100%;
+}
+
+.index-page-container div {
+  align-items: flex-end;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.index-page-container h1 {
+  font-family: 'Yeseva One', serif;
+  font-size: 140px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.index-page-container h2 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+.index-page-container div section {
+  padding: 80px 50px;
+  text-align: right;
+}
+
+.index-page-container button {
+  background-color: #ffe46d;
+  border: none;
+  border-radius: 40px;
+  color: rgb(80, 80, 80);
+  font-size: 20px;
+  margin-top: 60px;
+  padding: 25px 60px;
+  transition: 300ms;
+}
+
+.index-page-container button:hover {
+  background-color: inherit;
+  border: 1px solid #ffe46d;
+  color: #ffe46d;
+}
+
+.index-page-container header nav {
+  background-color: inherit;
+}
+
+.index-page-container header a {
+  color: rgb(0, 34, 43);
+  font-size: 26px;
+  padding: 0 10px;
+  text-decoration: none;
+}
