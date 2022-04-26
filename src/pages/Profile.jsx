@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Header from '../components/Header';
+import Sidebar from '../components/Sidebar';
 import { getUser } from '../services/userAPI';
 import Loading from '../components/Loading';
 import '../styles/profile.css';
@@ -42,7 +42,7 @@ class Profile extends React.Component {
     const { name, email, image, description, loading } = this.state;
     return (
       <div data-testid="page-profile" className="page-profile">
-        <Header />
+        <Sidebar />
         {
           loading
             ? <Loading />

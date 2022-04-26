@@ -1,6 +1,6 @@
 import React from 'react';
 import { Redirect } from 'react-router-dom';
-import Header from '../components/Header';
+import Sidebar from '../components/Sidebar';
 import { getUser, updateUser } from '../services/userAPI';
 import Loading from '../components/Loading';
 import '../styles/profile-edit.css';
@@ -62,7 +62,7 @@ class ProfileEdit extends React.Component {
 
     return (
       <div data-testid="page-profile-edit" className="page-profile-edit">
-        <Header />
+        <Sidebar />
         {
           loading
             ? <Loading />

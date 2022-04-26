@@ -1,6 +1,6 @@
 import React from 'react';
 import searchAlbumsAPI from '../services/searchAlbumsAPI';
-import Header from '../components/Header';
+import Sidebar from '../components/Sidebar';
 import AlbumContainer from '../components/AlbumContainer';
 import Loading from '../components/Loading';
 import '../styles/search.css';
@@ -62,7 +62,7 @@ class Search extends React.Component {
 
     return (
       <div data-testid="page-search" className="page-search">
-        <Header />
+        <Sidebar />
         <form className="search-form">
           <input
             type="text"

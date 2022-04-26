@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../components/Header';
+import Sidebar from '../components/Sidebar';
 import Loading from '../components/Loading';
 import { getFavoriteSongs } from '../services/favoriteSongsAPI';
 import MusicCard from '../components/MusicCard';
@@ -42,7 +42,7 @@ class Favorites extends React.Component {
 
     return (
       <div data-testid="page-favorites" className="page-favorites">
-        <Header />
+        <Sidebar />
         { loading && <Loading /> }
 
         <div>

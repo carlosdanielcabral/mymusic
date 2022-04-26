@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Header from '../components/Header';
+import Sidebar from '../components/Sidebar';
 import getMusics from '../services/musicsAPI';
 import MusicCard from '../components/MusicCard';
 import { getFavoriteSongs } from '../services/favoriteSongsAPI';
@@ -45,7 +45,7 @@ class Album extends React.Component {
 
     return (
       <div data-testid="page-album" className="page-album">
-        <Header />
+        <Sidebar />
         <div className="container">
           <section className="left">
             <div className="album">

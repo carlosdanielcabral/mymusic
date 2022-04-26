@@ -1,3 +1,7 @@
+.page-search {
+  margin-left: 300px;
+}
+
 .search .loading {
   text-align: center;
   width: 100%;
@@ -5,12 +9,13 @@
 
 .search-form {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   padding: 50px;
 }
 
 .search-form input {
   border: 1px solid rgb(200, 200, 200);
+  border-radius: 20px;
   padding: 10px;
 }
 
